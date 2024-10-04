@@ -48,6 +48,7 @@ Oracle.stmt(conn, query) do stmt
         write_parquet("output/output$filenum.parquet", df) # save parquet file
         global filenum
         filenum += 1
+        rownum += UInt64(1)
     end
 end
 
