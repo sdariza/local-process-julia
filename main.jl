@@ -9,7 +9,7 @@ using Parquet
 using Dates
 using DotEnv
 using UUIDs
-DotEnv.load!(".env.dev")
+DotEnv.load!(".env")
 
 # credentials
 username = ENV["USERNAME"]
