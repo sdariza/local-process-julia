@@ -1,0 +1,5 @@
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DotEnv = "4dc1fcf4-5e3b-5448-94ab-0c38ec0385c1"
+Oracle = "7240a794-28ba-5199-b477-df5fe5cf6155"
+Parquet = "626c502c-15b0-58ad-a749-f091afb673ae"

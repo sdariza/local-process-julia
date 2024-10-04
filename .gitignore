@@ -1,0 +1,16 @@
+# Julia package-specific files
+/.julia/
+Manifest.toml
+.julia_history
+.julia_env
+
+# System-specific and temporary files
+/.vscode/
+/.idea/
+/.DS_Store
+/.ipynb_checkpoints
+*.log
+*.tmp
+
+.env.dev
+*.parquet
