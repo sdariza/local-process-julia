@@ -54,6 +54,15 @@ source ~/.bashrc
 ### Install Julia
 1. Go to [Julia downloads](https://julialang.org/downloads/)
 
+
+
+### Add julia project
+```
+julia> ] activate .
+julia> ] instantiate
+julia> ] status
+```
+
 ### Modify ```.env``` file
 
 ### Run main.jl
