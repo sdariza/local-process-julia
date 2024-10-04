@@ -34,7 +34,7 @@ sudo ln -s /usr/lib/instantclient/libnsl.so.2 /usr/lib/libnsl.so.1
 sudo ln -s /lib/x86_64-linux-gnu/libc.so.6 /usr/lib/libresolv.so.2
 sudo ln -s /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 /usr/lib/ld-linux-x86-64.so.2
 ```
-5. #### Set enviromental variables
+5. #### Set environment variables
 ```
 nano ~/.bashrc
 ```
