@@ -56,7 +56,7 @@ source ~/.bashrc
 
 
 
-### Add julia project
+### Create julia project
 ```
 julia> ] activate .
 julia> ] instantiate
