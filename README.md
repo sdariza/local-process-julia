@@ -67,8 +67,14 @@ julia> ] status
 
 ### Set "julia.NumThreads": <your_nrs_of_thrs>
 
-### Run main.jl
+### Run .jl
 
+1. To fetch data and only save with threads run:
 ```
-julia main.jl
+julia fecthThreads.jl
+```
+
+2. To fetch data with async and only save with threads run:
+```
+julia asyncFetch.jl
 ```
