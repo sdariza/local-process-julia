@@ -65,6 +65,8 @@ julia> ] status
 
 ### Modify ```.env``` file
 
+### Set "julia.NumThreads": <your_nrs_of_thrs>
+
 ### Run main.jl
 
 ```

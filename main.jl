@@ -19,7 +19,7 @@ query = ENV["QUERY"]
 conn = Oracle.Connection(username, password, connect_string)
 
 # Initialize global variables
-const fetch_size = 10
+const fetch_size = 2000
 const num_threads = Threads.nthreads()  # Get the number of threads available
 println("num_threads: ", num_threads)
 # Function to handle parallel writing
