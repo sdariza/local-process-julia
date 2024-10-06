@@ -1,5 +1,5 @@
 #=
-Script to download Oracle data in .parquet files
+Script to download Oracle data in .parquet files with only threads
 =#
 print("\033c")
 using Base.Threads

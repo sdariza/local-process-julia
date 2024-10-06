@@ -66,7 +66,10 @@ julia> ] status
 ### Modify ```.env``` file
 
 ### Set "julia.NumThreads": <your_nrs_of_thrs>
-
+1. See it:
+```
+julia> versioninfo()
+```
 ### Run .jl
 
 1. To fetch data and only save with threads run:

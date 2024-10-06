@@ -1,3 +1,7 @@
+#=
+Script to download Oracle data in .parquet files
+with async fetch and threads to save .parquet files
+=#
 print("\033c")
 using Base.Threads
 using Oracle: Oracle
