@@ -43,7 +43,7 @@ end
 		while row !== nothing
 			tasks = []
 			i = 1
-			while i <= fetch_size
+			while i <= fetch_size # improve while for last rows!
 				push!(tasks, @async Oracle.fetchrow(stmt))
 				i = i + 1
 			end
