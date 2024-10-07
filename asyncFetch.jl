@@ -10,7 +10,7 @@ using Parquet
 using Dates
 using DotEnv
 using UUIDs
-DotEnv.load!(".env")
+DotEnv.load!(".env.dev")
 
 # credentials
 username = ENV["USERNAME"]
@@ -46,10 +46,8 @@ end
 		datatask = []
 		while row !== nothing
 			tasks = []
-			i = 1
-			while i <= fetch_size # improve while for last rows!
+			for _ in 1:fetch_size # improve in last rows!
 				push!(tasks, @async Oracle.fetchrow(stmt))
-				i = i + 1
 			end
 			res = map(fetch, tasks)
 			res = filter(x -> !isnothing(x), res)
